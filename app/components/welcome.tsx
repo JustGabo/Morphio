@@ -5,8 +5,8 @@ import React from "react";
 
 const Welcome = () => {
   return (
-    <main className="w-full px-4 lg:h-full h-[100dvh] lg:px-7 py-5 flex flex-col gap-10">
-      <section className="pb-10 lg:pt-20 pt-10 lg:w-[80%] w-full flex flex-col gap-10">
+    <main className="w-full px-4 lg:h-[100dvh] h-[100dvh] lg:px-7 py-5 flex flex-col gap-10">
+      <section className="pb-5 lg:pt-20 pt-10 lg:w-[80%] w-full flex flex-col gap-10">
         <article className="flex flex-col gap-3">
           <h1 className="text-5xl text-neutral-200 font-semibold">
             Welcome to <span className="text-yellow-500">Morphio.</span>

@@ -7,8 +7,7 @@ const Header = () => {
         <span className="text-yellow-500">Databases.</span>
       </h1>
       <p className="text-neutral-400 text-sm ml-2">
-        Please select the language you're going to
-        <span className="text-yellow-500">convert your queries to</span>.
+        Please select the language you're going to <span className="text-yellow-500">convert your queries to</span>.
       </p>
     </article>
   );

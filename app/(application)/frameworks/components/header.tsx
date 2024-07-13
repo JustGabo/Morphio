@@ -7,8 +7,7 @@ const Header = () => {
         <span className="text-yellow-500">FrameWorks.</span>
       </h1>
       <p className="text-neutral-400 w-[90%] text-sm">
-        Please select the framework you're going to
-        <span className="text-yellow-500">convert your code to</span>.
+        Please select the framework you're going to <span className="text-yellow-500">convert your code to</span>.
       </p>
     </article>
   );

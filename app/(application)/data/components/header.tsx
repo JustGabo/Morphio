@@ -7,8 +7,7 @@ const Header = () => {
         <span className="text-yellow-500">Data.</span>
       </h1>
       <p className="text-neutral-400 text-sm ">
-        Please select the format you're going to
-        <span className="text-yellow-500">convert your data to</span>.
+        Please select the format you're going to <span className="text-yellow-500">convert your data to</span>.
       </p>
     </article>
   );
