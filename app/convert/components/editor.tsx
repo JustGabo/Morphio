@@ -2,11 +2,9 @@
 import Monaco from "@monaco-editor/react";
 import React, { useState } from "react";
 import CodeBlock from "./code-block";
-import { useChat } from "ai/react";
 import { Clipboard, ClipboardCheck } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Sidebar from "./sidebar";
-import Link from "next/link";
 
 interface IEditorPaddingOptions {
   bottom?: number;

@@ -1,12 +1,14 @@
 "use client";
-import React from "react";
+import React, { Suspense } from "react";
 import Editor from "./editor";
 
 const ConvertPage = () => {
   return (
-    <main>
-      <Editor />
-    </main>
+    <Suspense>
+      <main>
+        <Editor />
+      </main>
+    </Suspense>
   );
 };
 
